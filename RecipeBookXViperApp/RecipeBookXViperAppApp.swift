@@ -11,7 +11,7 @@ import SwiftUI
 struct RecipeBookXViperAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RecipeRouter.createModule()
         }
     }
 }
